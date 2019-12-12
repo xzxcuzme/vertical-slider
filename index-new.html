@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper test task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/new-style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <input type="checkbox" id="nav-toggle" hidden>
+            <label for="nav-toggle" class="b-nav__toggle" onclick></label>
+            <nav class="b-nav">                        
+                <ul>
+                    <li><a href="#slide2" tabindex="2">A Longwinded Header</a>
+                    <li><a href="#slide3" tabindex="3">Get a Dog Up Ya’</a>
+                    <li><a href="#slide4" tabindex="4">Like What You See?</a>
+                    <li><a href="#slide5" tabindex="5">Newsletter Subscription</a>
+                </ul>
+            </nav>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-1" data-hash="slide1">
+                <div class="container">
+                	<div class="row l-row__slide-1">
+                        <div class="box l-slide-1">
+        	            	<a href="#" class="l-slide-1__logo">
+        						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="47" viewBox="0 0 28 47">
+        						<image width="28" height="47" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAvCAYAAADw46qXAAACS0lEQVRYhb2YzU3DQBCFH4grwh3gDkgHuAPSQUwH6QCnAzrAOXJLKgjpIO7APnDHFYAWzaLVaN56ndiMFCXZtf3tm52fTa5u3z9xhmUA1gA+5JVs1+fQANQAXgAcAHzL9yLlxnOAJYAnNbYS+HpqoHPlK5nrU9w7FugU3JE5p/w09ICbEbAs4rI9gJ26dgkgl+87v5gxwJKo69VC3OdKXesC7OgWMQa4JONuT1tRVQcB1cn7vbw/umtT9zCXG7T1AswkYDxsE7gztFWqwpg6COxBFlDIfuWBuj9LVViS8TqANQGMLjIFuJAHatuKQq9Mp4VZeVJcytSFCykULDOqkbMmRSEDetizkfDsnnYIuIxUFohba2OcFYiPISBbKSRIrPnCis4UYE72AUH4W1aRcVcITjEgyz0/92WMF6RAwLs+BmT7sIm0Ida6BoFsH7qIy9YkXyHB1caALFgYLIvM9eGcBczkyKCtIykA6XcsfXw3oUCmju1PFQmUo1Y+BmipK6W5WtZbka6BsUKt08AF1lsEVlipo4FM3c647kCubaRomAcqDbSSvQ+A/pjIlG3ES1ZR+LWwPS1I7unTmOWFrQRHa8xRYIo7W1nYUuCtVJ1BkLfwx0xrKOzlwZOZ38MUd05iHsg6w78DR/32SwVmJNn3sfC+BMg69+TqPHBB5ibfP0QUdmNyayzQUjiLOz3QapyzuBORI8asCrU1c6RDDDibOz2wU2OzudMDtaLZgZW0Icgpa1ZzQBcgLvmT/km61HzHdwceVuKmMwA/fiGBftJTHVoAAAAASUVORK5CYII="/>
+        						</svg>
+        					</a>				
+        					<div class="l-slide-1__head col-lg-12"><h1>Meet Perth,</h1></div>
+        					<div class="l-slide-1__subhead col-lg-12"><h2>A stupidly simple, flat PSD. Oh yeah, it’s <strong>free</strong> too!</h2></div>
+                            <div class="l-slide-1__button"><a class="b-link b-link__download" href="file:///Users/I/Desktop/vertical-slider/mockup/test-task-desktop.psd">Download</a></div>
+                        </div>
+    				</div>                
+                </div>
+                <img class="iphone5" src="img/iphone5.svg" width="228" height="481" alt="iphone">  	
+            </div>
+            <div class="swiper-slide swiper-slide-2" data-hash="slide2">
+                <div class="container">
+                    <div class="row l-row__slide-2">
+                        <div class="box l-slide-2">
+                            <div class="col-lg-7">
+                            	<h2 class="l-slide-2__head">A Longwinded Header</h2>
+                            	<div class="l-slide-2__paragraph"><p>She'll be right paddock how lets throw a ciggies. She'll be right ute to built like a doovalacky. We're going rack off bloody she'll be right pash. You little ripper tucker also get a dog up ya greenie.</p></div>
+                            	<p class="l-slide-2__paragraph--lead">You little ripper boozer no worries she'll be right holy dooley!. Come a 
+                				freo also as cross as a your shout. Lets throw a khe sanh flamin dead 
+                				dingo's donger. Lets get some fisho with grab us a trackie dacks.</p>
+                				<button class="b-link b-link__hello" onclick="PopUpShow();">Say hello</button>
+                            </div>
+                        </div>
+                    </div>
+<!--                     <div class="row">
+                        <div class="box">
+                            <div class="b-popup" id="popup1">       
+                                <section class="write-us-bottom popup-content">
+                                <a href="javascript:PopUpHide()" class="popup-close"></a>
+                                <form class="write-us-form" action="https://postman-echo.com/post" method="post">
+                                    <div class="row justify-content-center" style="padding-top: 30px;">
+                                        <div class="user-name-popup col-xl-4 col-12">
+                                            <label class="name" for="user-name">Your name:</label>
+                                            <input id="user-name" type="text" name="user-name" placeholder="Name Surname">
+                                        </div>
+                                        <div class="email-name-popup col-xl-4 col-12">
+                                            <label class="email" for="user-email">Your e-mail:</label>
+                                            <input id="user-email" type="email" name="user-email" placeholder="email@example.com">
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center" style="padding-top: 30px;">
+                                        <div class="mail-name-popup col-xl-8 col-12">
+                                            <label class="mail" for="mail">Text:</label>
+                                            <textarea id="mail" name="mail" placeholder="Write here"></textarea>
+                                        </div>
+                                        <button class="button write-us-send" type="submit">Sent</button>
+                                    </div>
+                                </form>
+                                </section>             
+                            </div>
+                        </div>
+                    </div> -->
+                </div> 
+                <img class="ipad" src="img/ipad.svg" width="339" height="577" alt="ipad">
+            </div>
+            <div class="swiper-slide swiper-slide-3" data-hash="slide3">
+                <div class="container">
+                    <div class="row l-row__slide-3">
+                        <div class="box l-box__slide-3">
+                            <div class="col-lg-8">
+                                
+                                	<h2 class="l-slide-3__head">Get a Dog Up Ya’</h2>
+                                	<p class="l-slide-3__paragraph">She'll be right paddock how lets throw a ciggies. 
+                    				She'll be right ute to built like a doovalacky.</p>
+                    				<p class="l-slide-3__paragraph--2">We're going rack off bloody she'll be right pash. You 
+                    				little ripper tucker also get a dog up ya greenie.</p>
+                    				<div><a class="b-link b-link__view" href="https://dribbble.com/search/meet%20perth" target="_blank">View on dribbble</a></div>
+                                
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+                <img class="devices" src="img/devices.svg" width="759" height="428" alt="devices">
+            </div>
+            <div class="swiper-slide swiper-slide-4" data-hash="slide4">
+                <div class="row l-row__slide-4">
+                	<div class="box l-box__slide-4">
+                    	<div class="col-lg-12">                        
+                        	<h2 class="l-slide-4__head">Like What You See?</h2>
+                            <div class="l-slide-4__link"><a class="b-link b-link__beer" href="#" target="_blank">Buy me a beer?</a></div>
+                            <div class="l-slide-4__social col-lg-12">
+                                <ul class="l-slide-4__social--list d-list">
+                                    <li class="d-list__item d-item"><a href="#"><div class="d-item__icon d-item__icon--dribbble"><span class="visually-hidden">dribbble</span></div></a></li>
+                                    <li class="d-list__item d-item"><a href="#"><div class="d-item__icon d-item__icon--facebook"><span class="visually-hidden">facebook</span></div></a></li>
+                                    <li class="d-list__item d-item"><a href="#"><div class="d-item__icon d-item__icon--twitter"><span class="visually-hidden">twitter</span></div></a></li>
+                                    <li class="d-list__item d-item"><a href="#"><div class="d-item__icon d-item__icon--telegram"><span class="visually-hidden">telegram</span></div></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 l-slide-4__subscription b-subscription">
+               					<!-- <form class="subscription" action="https://postman-echo.com/post" method="post"> -->
+                                    <div class="b-subscription__label"><label class="b-subscription__label--text" for="subscription">Newsletter Subscription</label></div>
+                                    <div class="b-subscription__input b-input"><input class="b-input__string" name="subscription" placeholder="Enter Email" type="email" id="subscription"></div>
+                                <!-- </form> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Add Pagination -->
+<!-- <div class="swiper-pagination"></div> -->
+    </div>
+	<footer class="main-footer">
+        <div class="main-footer__container">
+            <div class="main-footer__row b-row">
+                <div class="box">
+                    <div class="col-lg-12"><span>© 2013 <a href="#">Perth.</a> Breeding pixels since the naughties.</span></div>   
+                </div>
+                <a class="b-row__top" href="#slide1" tabindex="1"></a>
+            </div>
+        </div>        
+	</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
